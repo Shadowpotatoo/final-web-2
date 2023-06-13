@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255 235 205);
+}
+.webTitle{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(181 181 181);
+    width: 100vw;
+    height: 15vh;
+    justify-content: start;
+    align-content: center;
+    
+}
+
+.webName{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10vh;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.webName-1{
+    color: white;
+    height: 60%;    
+}
+
+.webLogo img{
+    width: 13vh;
+}
+main{
+    margin-top: 20vh ;
+}
+.main{
+    margin: auto;
+    width: 60vw;
+}
+.space{
+    margin: 0 auto 5% ;
+   ;
+}
+.title{
+    display: flex;
+    margin-left: 2vw;
+    background-color: gray;
+    border-top-right-radius: 1vw;
+    min-width: 15vh;
+    width: 25%;
+    color: white;
+}
+.title>h2{
+    margin: 3%;
+}
+.block{
+    display: flex;
+    margin-left: 2vw;
+    min-width: 15vh;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid gray;
+    border: .5px  solid rgb(181 181 181);
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+}
+
+.name{
+    display: flex;
+    margin-left: 2vw;
+    min-width: 15vh;
+    width: 100%;
+    background-color: white;
+    border-bottom: none;
+    border: .5px  solid rgb(181 181 181);
+    border-bottom: none;
+    border-top-left-radius: .5vw;
+    border-top-right-radius: .5vw;
+}
+.name>h1{
+    margin:2% 5%;
+}
+.info{
+    display: flex;
+    margin-left: 2vw;
+    min-width: 15vh;
+    width: 100%;
+    background-color: white;
+    border-top: none;            
+    border: .5px  solid rgb(181 181 181);
+    border-top: none;
+    border-bottom-left-radius: .5vw;
+    border-bottom-right-radius: .5vw;
+}
+.img{
+    margin: 2% 5%;
+    max-width: 15vw;
+}
+img{
+    
+    border: .1vw solid;
+    width: 100%;
+    
+}
+.message{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 2% 5%;
+    font-size: 5vh;
+}
+.board
+{
+    margin: 3%;
+}
+
+
+table, th, td {
+    border: none;
+    text-align: left;
+  }
+  table{
+    width: 50vw;
+  }
+  th{
+    width: 10%;
+  }
+  td{
+    width: 45%;
+  }
