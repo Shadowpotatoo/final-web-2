@@ -1,0 +1,173 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(255 235 205);
+        }
+        .webTitle {
+            z-index: 1000;
+            position: fixed;
+            top: 0;
+            display: flex;
+            /* flex-wrap: wrap; */
+            background-color: rgb(211, 211, 211);
+            width: 100vw;
+            height: 15vh;
+            justify-content:space-between;
+            align-items: center;
+        
+        }
+        
+        .webName {
+            display: flex;
+            /* flex-wrap: wrap; */
+            font-size: 10vh;
+            /* justify-content: center; */
+        
+        }
+        
+        .webName-1{
+            color: white;
+            height: 60%;
+            text-align: center;
+        }
+        
+        .webLogo img{
+            height: 13vh;
+        }
+        /* ---------------------------------------- */
+        * {
+            /* outline: solid 1px green; */
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        main{
+            margin-top: 20vh ;
+        }
+        .main{
+            margin: auto;
+            width: 60vw;
+        }
+        .types {
+            display: flex;
+            width: 40%;
+            height:15vh;
+            
+        }
+        
+        .type-item {
+            padding-top: 6vh;
+            text-align: center;
+            flex-basis: 100%;
+            font-size: 3vh; 
+        }
+        
+        
+        .type-item:hover {
+            background-color: rgb(143, 133, 133);
+            color: white;
+        }        
+        
+        .space{
+            margin: 0 auto 5% ;
+           ;
+        }
+        .title{
+            display: flex;
+            margin-left: 2vw;
+            background-color: gray;
+            border-top-right-radius: 1vw;
+            min-width: 15vh;
+            width: 25%;
+            color: white;
+        }
+        .title>h2{
+            margin: 3%;
+        }
+        .block{
+            display: flex;
+            margin-left: 2vw;
+            min-width: 15vh;
+            width: 100%;
+            background-color: white;
+            border-top: 2px solid gray;
+            border: .5px  solid rgb(181 181 181);
+            border-bottom-left-radius: .5vw;
+            border-bottom-right-radius: .5vw;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .name{
+            display: flex;
+            margin-left: 2vw;
+            min-width: 15vh;
+            width: 100%;
+            background-color: white;
+            border-bottom: none;
+            border: .5px  solid rgb(181 181 181);
+            border-bottom: none;
+            border-top-left-radius: .5vw;
+            border-top-right-radius: .5vw;
+        }
+        .name>h1{
+            margin:2% 5%;
+        }
+        .info{
+            display: flex;
+            margin-left: 2vw;
+            min-width: 15vh;
+            width: 100%;
+            background-color: white;
+            border-top: none;            
+            border: .5px  solid rgb(181 181 181);
+            border-top: none;
+            border-bottom-left-radius: .5vw;
+            border-bottom-right-radius: .5vw;
+        }
+        .img{
+            margin: 2% 5%;
+            max-width: 15vw;
+        }
+        img{
+            
+            border: .1vw solid;
+            width: 100%;
+            height: 100%;
+            
+        }
+        .message{
+            display: flex;
+            width: 100%;
+            height: auto;
+            margin: 2% 5%;
+            
+        }
+        .board
+        {
+            margin: 3%;
+        }
+        table, th, td {
+            border: none;
+            text-align: left;
+          }
+          table{
+            width: 50vw;
+          }
+          th{
+            width: 10%;
+          }
+          td{
+            width: 45%;
+          }
+          
+        .img1{
+            margin: 2% 5%;
+            width: 20vw;
+            max-height: 25vh;
+        }

@@ -1,0 +1,134 @@
+* {
+    /* outline: solid 1px green; */
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    position: relative;
+}
+
+.main {
+    position: absolute;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(255, 235, 205);
+}
+
+
+/* ----------------------------------------------------Header-------------------------------------- */
+.webTitle {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(211, 211, 211);
+    width: 100vw;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.webName {
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 10vh;
+    /* justify-content: center; */
+
+}
+
+.webName-1 {
+    color: white;
+    height: 60%;
+}
+
+.webLogo img {
+    width: 13vh;
+}
+
+.banner {
+    width: 100%;
+}
+
+.types {
+    display: flex;
+    width: 40%;
+    height:15vh;
+    
+}
+
+.type-item {
+    padding-top: 6vh;
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 3vh;
+}
+
+
+.type-item:hover {
+    background-color: rgb(143, 133, 133);
+    color:white;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+.now-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(10, 11, 11);
+}
+
+.anime {
+    display: block;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.swiper-slide{
+    overflow: hidden;
+}
+
+
+.swiper-slide a img{
+    border: 1px solid black;
+    transition: transform 0.5s ease;
+}
+
+.swiper-slide a img:hover{
+    transform: scale(1.05);
+}
+.anime-title {
+    position: relative;
+    z-index: 100;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    font-size: 90%;
+    height: 10%;
+    width: 100%;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+/*------------------------------------- slide ---------------------------------------------*/
+.swiper {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}

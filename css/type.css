@@ -1,0 +1,122 @@
+.webTitle {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(211, 211, 211);
+    width: 100vw;
+    height: 15vh;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.webName {
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 10vh;
+    /* justify-content: center; */
+
+}
+
+.webName-1{
+    color: white;
+    height: 60%;
+    text-align: center;
+}
+
+.webLogo img{
+    height: 13vh;
+}
+/* ---------------------------------------- */
+* {
+    /* outline: solid 1px green; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.types {
+    display: flex;
+    width: 40%;
+    height:15vh;
+    
+}
+
+.type-item {
+    padding-top: 6vh;
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 3vh;
+}
+
+
+.type-item:hover {
+    background-color: rgb(143, 133, 133);
+    color:white;
+}        
+
+
+body {
+    position: relative;
+}
+
+.background{
+    position: absolute;
+    top: 15vh;
+    width: 100%;
+    background-color: rgb(255, 235, 205);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 98%;
+    background-color: rgb(255, 235, 205);
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.animes{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.anime {
+    display: block;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.anime:hover{
+    transform: scale(1.05);
+}
+
+.anime-title {
+    position: relative;
+    z-index: 100;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    font-size: 90%;
+    height: 10%;
+    width: 200px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
